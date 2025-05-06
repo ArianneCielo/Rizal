@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Jose Rizal Website</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Lora', serif;
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://myhero.com/content/images/thumbs/0123582_jose-rizal.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .heading {
+      font-family: 'Playfair Display', serif;
+    }
+    .vintage {
+      background-color: rgba(212, 185, 150, 0.9);
+    }
+    .dark .vintage {
+      background-color: rgba(45, 45, 45, 0.9);
+      color: #D4B996;
+    }
+  
+  </style>
+</head>
+<body class="min-h-screen">
+  <!-- Header -->
+  <header class="vintage bg-opacity-60 p-4 fixed w-full top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <button id="backbtn" class="text-2xl hover:text-gray-700">
+        <i class="fas fa-arrow-left"></i>
+      </button>
+
+      <h1 class="heading text-3xl font-bold text-center">Jose Rizal</h1>
+
+      <button id="darktoggle" class="text-2xl hover:text-gray-700">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 pt-28 pb-16 flex flex-col items-center">
+    
+    <!-- Profile Circle Image -->
+    <div class="w-80 h-150 rounded-full overflow-hidden border-4 border-white shadow-lg mb-6">
+      <img src="https://filipinojournal.com/wp-content/uploads/2016/02/JoseRizal-1-400x410.jpg" alt="Jose Rizal" class="w-full h-full object-cover">
+    </div>
+
+    <!-- Biography Box -->
+    <!-- This is inserted inside the <main> after the biography section -->
+
+<!-- Signature and Description -->
+  <!-- Timeline Section -->
+  <section id="tribute-info" class="mt-12 bg-[#D4B996] bg-opacity-80 p-8 rounded-lg shadow-2xl w-full max-w-4xl">
+    <h3 id="headline" class="heading text-3xl font-bold mb-6 text-center">Timeline History</h3>
+    <div id="accordion" class="space-y-4">
+        <div class="mt-10 text-center">
+            <p class="text-lg italic mb-4">
+              The Father of Philippine Independence, a writer, poet, ophthalmologist, polymath and Filipino Nationalist.
+            </p>
+            <figure id="img-div" class="mx-auto w-48">
+              <img id="image" class="w-full" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Jose_rizal_signature.svg" alt="Jose Rizal Signature" />
+              <figcaption id="img-caption" class="text-sm mt-2">Jose Rizal</figcaption>
+            </figure>
+          </div>
+          
+      
+      <!-- Example Timeline Entry -->
+      <div>
+        <h4 class="font-semibold text-xl">1848 - Early Life</h4>
+        <p class="par mt-2">
+          The marriage of Jose Rizal's parents, Theodora Morales Alonso-Realonda y Quintos and Francisco Rizal-Mercado Alejandra as Jose Rizal's biological mother and father.
+        </p>
+      </div>
+  
+      <div>
+        <h4 class="font-semibold text-xl">1861 - Birth</h4>
+        <p class="par mt-2">
+          June 19th of 1861 was the birth of Jose Rizal, the 7th child of Theodora and Francisco. He was christened Jose Protasio Rizal-Mercado y Alonso-Realonda.
+        </p>
+        <img class="mt-2 rounded shadow" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/José_Rizal_baptism.jpg" alt="Baptism Certificate">
+        <cite class="block text-sm mt-1">Figure 1a. Jose Rizal's Baptismal Certificate.</cite>
+      </div>
+  
+      <!-- You can repeat for other years -->
+      <div>
+        <h4 class="font-semibold text-xl">1870</h4>
+        <p class="par mt-2">Justiniano Aquino Cruz was Jose Rizal's first instructor at age nine.</p>
+      </div>
+  
+      <div>
+        <h4 class="font-semibold text-xl">1872</h4>
+        <p class="par mt-2">
+          Jose Rizal passed the entrance exam as a student scholar in St. Tomas University in Manila.
+        </p>
+        <img class="mt-2 rounded shadow" src="https://upload.wikimedia.org/wikipedia/commons/4/41/Rizal-11.jpg" alt="Young Rizal">
+        <cite class="block text-sm mt-1">Figure 2a. 11-year-old Jose Rizal.</cite>
+      </div>
+  
+      <!-- Continue with rest of the timeline in the same format -->
+  
+      <div>
+        <h4 class="font-semibold text-xl">1896 - Final Days</h4>
+        <p class="par mt-2">
+          On December 30th, Jose Rizal was executed by firing squad and secretly buried. He had married Josephine Bracken just two hours prior.
+        </p>
+        <img class="mt-2 rounded shadow" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Rizal_execution.jpg" alt="Execution of Rizal">
+        <cite class="block text-sm mt-1">Figure 5a. The execution of Jose Rizal in Bagumbayan (now Rizal Park).</cite>
+      </div>
+  
+      <div>
+        <h4 class="font-semibold text-xl">1912 - Legacy</h4>
+        <p class="par mt-2">
+          On December 30th, Rizal’s remains were transferred to the Rizal Mausoleum. December 30 is declared a national holiday in his honor.
+        </p>
+      </div>
+      <div class="mt-8 text-center">
+        <a href="#openModal" class="text-blue-700 underline">
+          <cite class="cit">Reference Citation</cite>
+        </a>
+      </div>
+<!-- Reference Modal -->
+<div id="openModal" class="modalDialog">
+    <div class="bg-white p-6 rounded shadow-xl">
+      <a href="#close" title="Close" class="close text-red-600 float-right font-bold text-xl">X</a>
+      <h2 class="text-2xl mb-4">References</h2>
+  
+      <ul class="list-disc list-inside space-y-2">
+        <li>
+          <strong>Timeline</strong>
+          <ul class="list-none ml-4">
+            <li><a href="http://biography.yourdictionary.com/answers/biography/jose-rizal-life-timeline.html" id="tribute-link" target="_blank">biography.yourdictionary.com</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Images and Figures</strong>
+          <ul class="list-none ml-4">
+            <li><a href="https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal" id="tribute-link" target="_blank">wikipedia.org</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+    </div>
+  </section>
+  </div>
+  </main>
+  <footer class="fixed bottom-0 w-full p-4 bg-[#D4B996] bg-opacity-80">
+    <div class="container mx-auto flex justify-center space-x-6 text-xl">
+      <a href="poems.html" id="poembtn" class="text-white bg-brown-800 p-3 rounded-full hover:bg-brown-900 transition duration-300 shadow-md">
+        <i class="fas fa-book"></i>
+      </a>
+      <a href="students.html" id="studentsbtn" class="text-white bg-brown-800 p-3 rounded-full hover:bg-brown-900 transition duration-300 shadow-md">
+        <i class="fas fa-pen-nib"></i>
+      </a>
+    </div>
+  </footer>
+  
+  <script>
+    // Dark mode toggle
+    const darkToggle = document.getElementById('darktoggle');
+    const body = document.body;
+
+    if (localStorage.getItem('darkMode') === 'enabled') {
+      body.classList.add('dark');
+      darkToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    }
+
+    darkToggle.addEventListener('click', () => {
+      body.classList.toggle('dark');
+      const isDark = body.classList.contains('dark');
+      localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+      darkToggle.innerHTML = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+    });
+
+    // Back button
+    document.getElementById('backbtn').addEventListener('click', () => {
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'login.html';
+      }
+    });
+  </script>
+</body>
+</html>
